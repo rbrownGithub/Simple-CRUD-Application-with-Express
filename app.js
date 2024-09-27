@@ -1,6 +1,7 @@
+// Imports the Express framework and initializes an Express application (app).
 const express = require('express');
 const app = express();
-const PORT = 3000; // Choose any port number you prefer
+const PORT = 3000; // Defines PORT as 3000, where the server will listen for incoming requests.
 
 // Middleware to parse JSON bodies
 app.use(express.json());
